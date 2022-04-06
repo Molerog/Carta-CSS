@@ -1,60 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Beau+Rivage&family=Inter:wght@300&family=Tangerine&display=swap');
 
 
 
-body{
-    margin-left: 20em;
+body {
+    margin-left: 28em;
     margin-right: 20em;
 }
-.grupo{
+.grupo {
     border: 1px solid black;
     background-color: #f9f5e1;
     width: 800px;    
     padding: 3em;
+    height: 1880px;
+    
+    
          
 }
 
-.nombre{
+.nombre {
     font-family: 'Beau Rivage', cursive;
     font-family: 'Inter', sans-serif;
     text-align: center;
     word-spacing:1em;
-    font-size:25px;
-    color:#f5e557
+    font-size:25px;   
 }
 
-.datos{
+.datos {
     text-align: center;
 }
 
-.contacto{
+.contacto {
     font-style: italic;
 }
 
-.lorem{
+.lorem {
     font-weight: bold;
 }
 
-.culpa{
+.culpa {
     text-decoration: underline;
 }
 
-.cuerpo{
-    line-height:2em
+.cuerpo {
+    line-height:2em;
 }
 
 hr {
-    color:black;
+    
     border-color: black;
     border-width: 0.1em;  
 }
 
-.correo{
-    font-style:italic
+.correo {
+    font-style:italic;
 }
 
-.despedida{
+.nom2 {
     font-family: 'Babylonica', cursive;
     font-family: 'Beau Rivage', cursive;
     font-family: 'Inter', sans-serif;
+    font-family: 'Tangerine', cursive;  
+    font-size: 3.5em;
+    position:relative;
+    bottom:3em;
+    
 }
+
+.comilla {
+    quotes: "«" "»";
+}
+
+.caja1{
+    border-style:dotted;
+    position:relative;
+    width:30em;
+    height:10em;
+    left:20em;       
+}
+
+.cordial{
+    position:relative;
+    top:13em
+}
+
+/* He ajustado el ancho de este bloque o clase .box para que coincidiera
+   con el ancho de la clase .caja1 y de esta forma no es necesario usar
+   un word-warp */
+.box{
+    position:absolute;
+    width:30em;
+    text-align: left;
+    font-style:bold;
+    left:5px;
+    top:20px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+     hyphens: auto;   
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+.hearth{
+    vertical-align: super;
+}
+
+.caja2{
+    border: 1px  black;
+    width:2em;
+    position:relative;
+    left:50em;
+    bottom:11em;
+    writing-mode:vertical-lr;
+}
+    
