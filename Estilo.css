@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Inter:wght@300&display=swap');
+
+
+
+body{
+    margin-left: 20em;
+    margin-right: 20em;
+}
+.grupo{
+    border: 1px solid black;
+    background-color: #f9f5e1;
+    width: 800px;    
+    padding: 3em;
+         
+}
+
+.nombre{
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    word-spacing:1em;
+    font-size:25px;
+    color:#f5e557
+}
+
+.datos{
+    text-align: center;
+}
+
+.contacto{
+    font-style: italic;
+}
+
+.lorem{
+    font-weight: bold;
+}
+
+.culpa{
+    text-decoration: underline;
+}
+
+.cuerpo{
+    line-height:2em
+}
+
+hr {
+    color:black;
+    border-color: black;
+    border-width: 0.1em;  
+}
+
+.correo{
+    font-style:italic
+}
+
+.despedida{
+    font-family: 'Babylonica', cursive;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Inter', sans-serif;
+}
